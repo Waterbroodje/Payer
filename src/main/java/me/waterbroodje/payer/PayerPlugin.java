@@ -1,7 +1,10 @@
-package zenicx.com.payer;
+package me.waterbroodje.payer;
 
 import com.stripe.exception.StripeException;
 import com.stripe.model.checkout.Session;
+import me.waterbroodje.payer.commands.CommandBase;
+import me.waterbroodje.payer.commands.PayerShopCommand;
+import me.waterbroodje.payer.listeners.PaymentActionlistener;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -9,11 +12,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
-import zenicx.com.payer.commands.CommandBase;
-import zenicx.com.payer.commands.PayerShopCommand;
-import zenicx.com.payer.events.PaymentActionEvent;
-import zenicx.com.payer.listeners.PaymentActionlistener;
-import zenicx.com.payer.managers.PayerConfigManager;
+import me.waterbroodje.payer.events.PaymentActionEvent;
+import me.waterbroodje.payer.managers.PayerConfigManager;
 
 import java.util.HashMap;
 import java.util.UUID;

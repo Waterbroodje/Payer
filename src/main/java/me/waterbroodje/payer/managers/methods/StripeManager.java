@@ -1,12 +1,12 @@
-package zenicx.com.payer.managers.methods;
+package me.waterbroodje.payer.managers.methods;
 
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.checkout.Session;
+import me.waterbroodje.payer.models.ShopItem;
 import org.bukkit.entity.Player;
-import zenicx.com.payer.PayerPlugin;
-import zenicx.com.payer.managers.PayerConfigManager;
-import zenicx.com.payer.models.ShopItem;
+import me.waterbroodje.payer.PayerPlugin;
+import me.waterbroodje.payer.managers.PayerConfigManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;

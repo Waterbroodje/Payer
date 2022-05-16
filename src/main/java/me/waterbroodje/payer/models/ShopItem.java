@@ -1,4 +1,4 @@
-package zenicx.com.payer.models;
+package me.waterbroodje.payer.models;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.ConsoleCommandSender;

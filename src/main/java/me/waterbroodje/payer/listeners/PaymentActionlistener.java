@@ -1,11 +1,11 @@
-package zenicx.com.payer.listeners;
+package me.waterbroodje.payer.listeners;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import zenicx.com.payer.events.PaymentActionEvent;
+import me.waterbroodje.payer.events.PaymentActionEvent;
 
 public class PaymentActionlistener implements Listener {
 

@@ -1,8 +1,8 @@
-package zenicx.com.payer.commands;
+package me.waterbroodje.payer.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import zenicx.com.payer.PayerPlugin;
+import me.waterbroodje.payer.PayerPlugin;
 
 public class PayerShopCommand extends CommandBase<PayerPlugin> {
     /**

@@ -1,7 +1,7 @@
-package zenicx.com.payer.managers;
+package me.waterbroodje.payer.managers;
 
+import me.waterbroodje.payer.models.ShopItem;
 import org.bukkit.configuration.file.FileConfiguration;
-import zenicx.com.payer.models.ShopItem;
 
 import java.util.List;
 

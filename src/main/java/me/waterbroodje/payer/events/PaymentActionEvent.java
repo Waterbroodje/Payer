@@ -1,8 +1,8 @@
-package zenicx.com.payer.events;
+package me.waterbroodje.payer.events;
 
+import me.waterbroodje.payer.models.ShopItem;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
-import zenicx.com.payer.models.ShopItem;
 
 import java.util.UUID;
 
