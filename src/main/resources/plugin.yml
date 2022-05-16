@@ -1,0 +1,10 @@
+name: Payer
+version: '${project.version}'
+main: zenicx.com.payer.PayerPlugin
+authors: [Zenicx]
+description: With Payer, you can create and manage real payments directly from your Minecraft Server.
+website: https://zenicx.com/
+commands:
+  payer:
+    aliases: [pay, payer]
+    description: The command for players and admins to interact with the plugin.
